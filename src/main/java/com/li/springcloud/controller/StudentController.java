@@ -27,8 +27,8 @@ public class StudentController {
     @Qualifier("eurekaClient")
     private EurekaClient eurekaClient;
 
-    @Autowired
-    private DiscoveryClient discoveryClient;
+//    @Autowired
+//    private DiscoveryClient discoveryClient;
 
     // 使用RestTemplateBuilder来实例化RestTemplate对象，spring默认已经注入了RestTemplateBuilder实例
     @Bean
